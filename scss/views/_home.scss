@@ -1,0 +1,15 @@
+body .home{
+    main .home{
+        .servicios{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            .tarj2 .tarj3{
+                display: none;
+            }
+            img{
+                width: 100px;
+            }
+        }
+    }
+}
+

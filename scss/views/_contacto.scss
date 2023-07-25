@@ -1,0 +1,48 @@
+body{
+    main{
+        padding-top: 100px;
+        .container-contacto{
+            .saludo-contacto{
+                padding: 10px 30px 10px 30px;
+                text-align: justify;
+            }
+            .container-info-contacto{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 30px;
+                .telefono{
+                    margin-top: 20px;
+                    line-height: 40px;
+                }
+            }
+        }
+        form{
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            input{
+                background-color: #d4b2a7;
+                border-style: none;
+                border-radius: 4vh;
+                padding: 5px;
+                margin: 2px;
+            }
+            textarea{
+                text-align: left;
+                padding: 0.5rem;
+                margin: 2px;
+                background-color: #d4b2a7;
+                border-style: none;
+                border-radius: 3vh;
+            }
+            button{
+                background-color: $color-botones;
+                border-style: none;
+                border-radius: 2rem;
+                padding: 2px;
+                font-family: 'Quicksand', serif;
+                margin-top: 10px;
+            }
+        }    
+    }
+}

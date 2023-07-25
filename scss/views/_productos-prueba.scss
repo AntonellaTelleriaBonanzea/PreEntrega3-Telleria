@@ -1,0 +1,41 @@
+.form-contacto{
+    font-family: sans-serif;
+    display: inline-block;
+    border-style: none;
+    padding-left: 2px;
+    fieldset{
+        .contacto-formulario{
+            border-style: none;
+            label{
+                text-align: left;
+                padding: 0.5rem;
+            }
+            input{
+                background-color: #d4b2a7;
+                border-style: none;
+                width: 40vh;
+                border-radius: 6vh;
+            }
+            textarea{
+                text-align: left;
+                padding: 0.5rem;
+                background-color: #d4b2a7;
+                border-style: none;
+                width: 40vh;
+                border-radius: 6vh;
+            }
+            button{
+                .boton-formulario{
+                    background-color: $color-botones;
+                    border-style: none;
+                    border-radius: 2rem;
+                    padding: 2px;
+                    font-family: 'Quicksand', serif;
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

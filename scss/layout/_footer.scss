@@ -1,0 +1,78 @@
+footer{
+    width: auto;
+    height: auto;
+    background-color: $color-footer;
+    padding: 3vh;
+
+   
+    button{
+        background-color: $color-botones;
+        border-style: none;
+        border-radius: 2rem;
+        padding: 2px;
+        font-family: 'Quicksand', serif;
+        a{
+            font-size: 15px;
+        }
+    }
+    .footer-grid-container{
+        margin: 3vh;
+        display: grid;
+        gap: 5px;
+        grid-template:
+        "navegacion navegacion"
+        "medios-pago redes"
+        "contactanos contactanos";
+        font-size: 17px; 
+        
+        .navegacion{
+            grid-area: navegacion;
+            text-align: start;
+            p{
+                font-size: small;
+                color: $color-botones;
+                font-style: italic bold;
+            }
+        }
+        .medios-pago{
+            grid-area: medios-pago;
+            display: inline;
+            p{
+                font-size: small;
+                color: $color-botones;
+                font-style: italic bold;
+            }
+            i{
+                padding: 2px;
+            }
+        }
+        .contactanos{
+            grid-area: contactanos;
+            p{
+                font-size: small;
+                color: $color-botones;
+                font-style: italic bold;
+                .email{
+                    color: black;
+                    font-style: normal;
+                }
+            }
+        }
+        .redes{
+            grid-area: redes;
+            p{
+                font-size: small;
+                color: $color-botones;
+                font-style: italic bold;
+            }
+            i{
+                padding: 7px;
+            }
+        }
+    }
+    p{
+        color: $color-botones;
+        font-style: italic bold;
+        font-size: 8px;
+    }
+}

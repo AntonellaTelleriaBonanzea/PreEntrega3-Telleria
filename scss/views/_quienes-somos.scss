@@ -1,0 +1,22 @@
+body{
+    main{
+    padding-top: 100px;
+        img{
+            max-width: 100%;
+        }
+        .container-nosotros{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 20px;
+
+            h1{
+                text-align: center;
+                padding-top: 20px;
+            }
+            img{
+                border-radius: 20px;
+            }
+        }
+    }    
+}
